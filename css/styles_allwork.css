@@ -1,0 +1,9 @@
+.item { 
+    width: 20%;
+    background-color: red;
+}
+.item.w2 { 
+    width: 40%;
+    background-color: blue;
+}
+
