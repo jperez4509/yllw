@@ -1,16 +1,23 @@
 
 
-/* MENU ITEMS*/
+.copy p {
+    margin-bottom: 20px;
+}
+
+
+
+/* CIRCLE ITEMS*/
 .box-holder{
    width: 60%;
    float: left;
+    margin-bottom: 60px;
 }
 .box {
     box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
     height: 140px;
     width: 140px;
     float: left;
-    margin: 5px;
+    margin-right: 40px;
     position: relative;
     overflow: hidden;
     background-color: white;
@@ -19,9 +26,6 @@
 
 .box img {
    position: absolute;
-   margin: -55px;
-   left: 0;
-   height: 275px;
    width: auto;
 }
 
@@ -32,11 +36,11 @@
    width: 140px;
    height: 140px;
    text-align: center;
-   background-color: rgba(34,34,34,.8);
+   background-color: rgba(34,34,34,.9);
 }
 
-.box .fade-caption h3 {
-    padding-top: 20px;
+.box .fade-caption h4 {
+    padding-top: 40px;
     font-size: 14px;
    color:#f3c108;
 }
